@@ -29,4 +29,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: zhangtao25/canyon:${{ steps.extract_branch.outputs.branch }}
+          tags: zhangtao25/canyon-demo1:${{ steps.extract_branch.outputs.branch }}
